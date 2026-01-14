@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "magical:rose_quartz"
+    },
+    "title": "Rose Quartz? or Pink Diamond",
+    "description": "Craft a Rose Quartz",
+    "background": "magical:textures/gui/advancements/backgrounds/back.png",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "getrosequartz": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "magical:rose_quartz"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "getrosequartz"
+    ]
+  ]
+}
