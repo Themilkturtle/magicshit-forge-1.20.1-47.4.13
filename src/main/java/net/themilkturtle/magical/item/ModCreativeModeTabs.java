@@ -4,10 +4,12 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.themilkturtle.magical.Magical;
+import net.themilkturtle.magical.block.ModBlocks;
 
 public class ModCreativeModeTabs {
 
@@ -22,6 +24,11 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.ROSEQUARTZ.get());
                         pOutput.accept(ModItems.SCRYINGLENS.get());
+                        pOutput.accept(ModItems.ROSEDUST.get());
+                        pOutput.accept(ModItems.PITCHER_OIL.get());
+                        pOutput.accept(ModItems.TORCHFLOWER_OIL.get());
+                        pOutput.accept(ModItems.SICLE_OIL.get());
+                        pOutput.accept(ModBlocks.SICLE.get());
                     })
 
                     .build());

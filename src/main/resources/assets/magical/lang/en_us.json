@@ -1,6 +1,13 @@
 {
   "item.magical.rose_quartz": "Rose Quartz",
+  "item.magical.rose_dust": "Rose Dust",
   "item.magical.scrying_lens": "Scrying Lens",
+  "item.magical.pitcher_oil": "Pitcher Oil",
+  "item.magical.torchflower_oil": "Torchflower Oil",
+  "item.magical.sicle_oil": "Sicle Oil",
+
+
+  "block.magical.sicle": "Sicle",
 
   "creativetab.magical_tab": "Magical"
 

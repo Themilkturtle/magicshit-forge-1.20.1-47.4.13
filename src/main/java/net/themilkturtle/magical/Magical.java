@@ -2,6 +2,8 @@ package net.themilkturtle.magical;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -12,6 +14,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.themilkturtle.magical.block.ModBlocks;
 import net.themilkturtle.magical.item.ModCreativeModeTabs;
 import net.themilkturtle.magical.item.ModItems;
 import org.slf4j.Logger;
@@ -30,6 +33,7 @@ public class Magical {
 
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
 
         modEventBus.addListener(this::commonSetup);
@@ -41,6 +45,9 @@ public class Magical {
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
+        event.enqueueWork(() -> {
+            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(ModBlocks.SICLE.getId(), ModBlocks.POTTED_SICLE);
+        });
 
     }
 
@@ -48,8 +55,7 @@ public class Magical {
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.ROSEQUARTZ);
-            event.accept(ModItems.SCRYINGLENS);
+
         }
 
 

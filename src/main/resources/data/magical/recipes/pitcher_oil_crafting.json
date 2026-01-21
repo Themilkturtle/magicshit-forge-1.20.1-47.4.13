@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "item": "minecraft:pitcher_plant"
+    }
+  ],
+  "result": {
+    "item": "magical:pitcher_oil",
+    "count": 1
+  }
+}

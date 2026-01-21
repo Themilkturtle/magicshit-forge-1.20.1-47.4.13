@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "magical:item/rose_quartz"
+    "layer0": "magical:item/torchflower_oil"
   }
 }
