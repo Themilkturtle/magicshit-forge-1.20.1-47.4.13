@@ -22,6 +22,7 @@ public class ModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         simpleItem(ModItems.ROSEDUST);
         simpleItem(ModItems.ROSEQUARTZ);
+        simpleItem(ModItems.PAINT_BRUSH);
 
         simpleBlockItemBlockTexture(ModBlocks.SICLE);
 

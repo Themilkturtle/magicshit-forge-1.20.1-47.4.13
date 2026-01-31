@@ -22,6 +22,9 @@ public class ModItems {
     public static final RegistryObject<Item> ROSEDUST = ITEMS.register("rose_dust",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> PAINT_BRUSH = ITEMS.register("paint_brush",
+            () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> SCRYINGLENS = ITEMS.register("scrying_lens",
             () -> new Item(new Item.Properties().stacksTo(1)));
 

@@ -26,6 +26,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.SCRYINGLENS.get());
                         pOutput.accept(ModItems.ROSEDUST.get());
                         pOutput.accept(ModItems.PITCHER_OIL.get());
+                        pOutput.accept(ModItems.PAINT_BRUSH.get());
                         pOutput.accept(ModItems.TORCHFLOWER_OIL.get());
                         pOutput.accept(ModItems.SICLE_OIL.get());
                         pOutput.accept(ModBlocks.SICLE.get());
