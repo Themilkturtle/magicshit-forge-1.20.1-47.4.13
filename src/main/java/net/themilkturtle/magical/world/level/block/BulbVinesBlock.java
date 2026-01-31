@@ -17,15 +17,15 @@ public class BulbVinesBlock extends GrowingPlantHeadBlock {
         super(p_154864_, Direction.UP, SHAPE, false, 0.1D);
     }
 
-    protected int getBlocksToGrowWhenBonemealed(RandomSource p_222649_) {
+    public int getBlocksToGrowWhenBonemealed(RandomSource p_222649_) {
         return NetherVines.getBlocksToGrowWhenBonemealed(p_222649_);
     }
 
-    protected Block getBodyBlock() {
+    public Block getBodyBlock() {
         return ModBlocks.BULB_VINE_PLANT;
     }
 
-    protected boolean canGrowInto(BlockState p_154869_) {
+    public boolean canGrowInto(BlockState p_154869_) {
         return NetherVines.isValidGrowthState(p_154869_);
     }
 }
