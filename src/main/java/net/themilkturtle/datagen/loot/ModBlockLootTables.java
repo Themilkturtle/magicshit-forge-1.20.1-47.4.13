@@ -22,6 +22,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
     @Override
     protected void generate() {
         this.dropSelf(ModBlocks.SICLE.get());
+        this.dropSelf(ModBlocks.BULB_VINE.get());
+        this.dropSelf(ModBlocks.BULB_VINE_PLANT.get());
         this.add(ModBlocks.POTTED_SICLE.get(), createPotFlowerItemTable(ModBlocks.SICLE.get()));
 ;
     }

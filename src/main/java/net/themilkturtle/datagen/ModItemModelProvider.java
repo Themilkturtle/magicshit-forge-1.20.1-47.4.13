@@ -25,6 +25,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.PAINT_BRUSH);
 
         simpleBlockItemBlockTexture(ModBlocks.SICLE);
+        simpleBlockItemBlockTexture(ModBlocks.BULB_VINE);
+        simpleBlockItemBlockTexture(ModBlocks.BULB_VINE_PLANT);
 
     }
 

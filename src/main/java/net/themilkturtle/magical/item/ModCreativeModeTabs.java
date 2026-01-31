@@ -30,6 +30,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.TORCHFLOWER_OIL.get());
                         pOutput.accept(ModItems.SICLE_OIL.get());
                         pOutput.accept(ModBlocks.SICLE.get());
+                        pOutput.accept(ModBlocks.BULB_VINE.get());
                     })
 
                     .build());
