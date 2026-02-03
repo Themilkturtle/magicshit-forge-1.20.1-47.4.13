@@ -19,6 +19,10 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
 
+    public static final RegistryObject<Item> BULB_BERRIES = ITEMS.register("bulb_berries",
+            () -> new Item(new Item.Properties().food(ModFoods.BULB_BERRIES)));
+
+
     public static final RegistryObject<Item> ROSEDUST = ITEMS.register("rose_dust",
             () -> new Item(new Item.Properties()));
 
@@ -36,6 +40,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> SICLE_OIL = ITEMS.register("sicle_oil",
             () -> new ModDrinkItem(new Item.Properties().stacksTo(4).food(ModFoods.SICLE_OIL)));
+
+    public static final RegistryObject<Item> BULB_VINE_OIL = ITEMS.register("bulb_vine_oil",
+            () -> new ModDrinkItem(new Item.Properties().stacksTo(4).food(ModFoods.BULB_VINE_OIL)));
 
 
     public static void register(IEventBus eventBus) {

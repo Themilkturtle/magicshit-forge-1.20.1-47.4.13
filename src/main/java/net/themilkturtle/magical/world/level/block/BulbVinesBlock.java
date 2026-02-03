@@ -28,6 +28,7 @@ import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.themilkturtle.magical.block.ModBlocks;
+import net.themilkturtle.magical.item.ModItems;
 
 public class BulbVinesBlock extends GrowingPlantHeadBlock {
     public static final VoxelShape SHAPE = Block.box(4.0D, 0.0D, 4.0D, 12.0D, 15.0D, 12.0D);
@@ -68,7 +69,7 @@ public class BulbVinesBlock extends GrowingPlantHeadBlock {
     public InteractionResult use(BlockState state, Level world, BlockPos pos, Player player, InteractionHand hand, BlockHitResult hit) {
         if (!state.getValue(BERRIES)) return InteractionResult.PASS;
         if (!world.isClientSide) {
-            ItemStack stack = new ItemStack(Items.GLOW_BERRIES);
+            ItemStack stack = new ItemStack(ModItems.BULB_BERRIES.get());
             if (!player.addItem(stack)) {
                 player.drop(stack, false);
             }

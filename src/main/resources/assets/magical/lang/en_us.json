@@ -6,9 +6,12 @@
   "item.magical.torchflower_oil": "Torchflower Oil",
   "item.magical.sicle_oil": "Sicle Oil",
   "item.magical.paint_brush": "Paint Brush",
+  "item.magical.bulb_berries": "Bulb Berries",
+  "item.magical.bulb_vine_oil": "Bulb Vine Oil",
 
 
   "block.magical.sicle": "Sicle",
+  "block.magical.bulb_vine": "Bulb Vine",
 
   "creativetab.magical_tab": "Magical"
 
