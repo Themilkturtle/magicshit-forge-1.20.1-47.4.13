@@ -142,6 +142,6 @@ public class BulbVinesBlock extends GrowingPlantHeadBlock {
         BlockPos below = pos.below();
         BlockState bs = world.getBlockState(below);
         if (bs.is(ModBlocks.BULB_VINE_PLANT.get())) return true;
-        return bs.is(Blocks.SCULK) || bs.is(Blocks.STONE) || bs.is(Blocks.DEEPSLATE) || bs.is(Blocks.DIRT) || bs.is(Blocks.GRASS_BLOCK);
+        return bs.is(Blocks.SCULK) || bs.is(Blocks.STONE) || bs.is(ModBlocks.BULB_VINE.get()) || bs.is(ModBlocks.BULB_VINE_PLANT.get()) || bs.is(Blocks.DEEPSLATE) || bs.is(Blocks.DIRT) || bs.is(Blocks.GRASS_BLOCK);
     }
 }

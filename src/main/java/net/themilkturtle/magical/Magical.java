@@ -1,6 +1,7 @@
 package net.themilkturtle.magical;
 
 import com.mojang.logging.LogUtils;
+import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.FlowerPotBlock;
@@ -15,8 +16,11 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.themilkturtle.magical.block.ModBlocks;
+
+import net.themilkturtle.magical.effect.ModEffects;
 import net.themilkturtle.magical.item.ModCreativeModeTabs;
 import net.themilkturtle.magical.item.ModItems;
+
 import org.slf4j.Logger;
 
 @Mod(Magical.MOD_ID)
@@ -34,6 +38,9 @@ public class Magical {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModEffects.register(modEventBus);
+
 
 
         modEventBus.addListener(this::commonSetup);
@@ -54,7 +61,10 @@ public class Magical {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+        if (event.getTabKey() == CreativeModeTabs.OP_BLOCKS) {
+
+
+
 
         }
 
@@ -72,6 +82,8 @@ public class Magical {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+
+
         }
     }
 }

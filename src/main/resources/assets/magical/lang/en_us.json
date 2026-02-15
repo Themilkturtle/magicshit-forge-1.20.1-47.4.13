@@ -8,10 +8,23 @@
   "item.magical.paint_brush": "Paint Brush",
   "item.magical.bulb_berries": "Bulb Berries",
   "item.magical.bulb_vine_oil": "Bulb Vine Oil",
+  "item.magical.mini_lemon_tart": "Mini Lemon Tart",
+  "item.magical.copper_ring": "Copper Ring",
+  "item.magical.iron_ring": "Iron Ring",
+  "item.magical.very_old_wine": "Very Old Wine",
+  "item.magical.beer_mug": "Beer Mug",
+  "item.magical.empty_mug": "Empty Mug",
+  "item.magical.red_wine": "Red Wine",
+  "item.magical.white_wine": "White Wine",
+  "item.magical.vodka": "Vodka",
+
+
+  "effect.magical.black_death": "Black Death",
 
 
   "block.magical.sicle": "Sicle",
   "block.magical.bulb_vine": "Bulb Vine",
+  "block.magical.foeder": "Foeder",
 
   "creativetab.magical_tab": "Magical"
 

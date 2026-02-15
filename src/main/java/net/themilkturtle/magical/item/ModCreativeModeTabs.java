@@ -29,11 +29,22 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.BULB_BERRIES.get());
                         pOutput.accept(ModItems.PITCHER_OIL.get());
                         pOutput.accept(ModItems.BULB_VINE_OIL.get());
+                        pOutput.accept(ModItems.MINI_LEMON_TART.get());
+                        pOutput.accept(ModItems.COPPER_RING.get());
+                        pOutput.accept(ModItems.IRON_RING.get());
+                        pOutput.accept(ModItems.EMPTY_MUG.get());
+                        pOutput.accept(ModItems.BEER_MUG.get());
+                        pOutput.accept(ModItems.WHITE_WINE.get());
+                        pOutput.accept(ModItems.RED_WINE.get());
+                        pOutput.accept(ModItems.VODKA.get());
+                        pOutput.accept(ModItems.VERY_OLD_WINE.get());
 
                         pOutput.accept(ModItems.TORCHFLOWER_OIL.get());
                         pOutput.accept(ModItems.SICLE_OIL.get());
                         pOutput.accept(ModBlocks.SICLE.get());
                         pOutput.accept(ModBlocks.BULB_VINE.get());
+
+
                     })
 
                     .build());

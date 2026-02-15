@@ -46,7 +46,6 @@ public class ModBlockStateProvider extends BlockStateProvider {
             return ConfiguredModel.builder().modelFile(berries ? bulbPlant : bulbPlantBerryless).build();
         });
 
-        // Item models are generated in ModItemModelProvider
 
     }
 

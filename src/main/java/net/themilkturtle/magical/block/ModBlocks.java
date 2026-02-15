@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.themilkturtle.magical.Magical;
+
 import net.themilkturtle.magical.item.ModItems;
 import net.themilkturtle.magical.world.level.block.BulbVinesBlock;
 import net.themilkturtle.magical.world.level.block.BulbVinesPlantBlock;
