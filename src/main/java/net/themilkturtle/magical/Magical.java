@@ -20,6 +20,7 @@ import net.themilkturtle.magical.effect.ModEffects;
 import net.themilkturtle.magical.item.ModCreativeModeTabs;
 import net.themilkturtle.magical.item.ModItems;
 
+import net.themilkturtle.magical.item.StaffTypeSystemItem;
 import org.slf4j.Logger;
 
 @Mod(Magical.MOD_ID)
@@ -39,6 +40,7 @@ public class Magical {
         ModBlocks.register(modEventBus);
 
         ModEffects.register(modEventBus);
+
 
 
 

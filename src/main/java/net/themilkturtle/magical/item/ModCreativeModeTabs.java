@@ -38,10 +38,22 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.RED_WINE.get());
                         pOutput.accept(ModItems.VODKA.get());
                         pOutput.accept(ModItems.VERY_OLD_WINE.get());
+                        pOutput.accept(ModItems.SLING_SHOT.get());
+                        pOutput.accept(ModItems.HORSE_RADISH.get());
+                        pOutput.accept(ModItems.NET.get());
+                        pOutput.accept(ModItems.RADISH.get());
+                        pOutput.accept(ModItems.RADISH_AND_BEEF_STEW.get());
+                        pOutput.accept(ModItems.BASIC_WOOD_STAFF_CIRCLE.get());
+                        pOutput.accept(ModItems.BASIC_WOOD_STAFF_BLADE.get());
+                        pOutput.accept(ModItems.BASIC_WOOD_STAFF_HOOK.get());
+                        pOutput.accept(ModItems.BASIC_WOOD_STAFF_CLUB.get());
+
+
 
                         pOutput.accept(ModItems.TORCHFLOWER_OIL.get());
                         pOutput.accept(ModItems.SICLE_OIL.get());
                         pOutput.accept(ModBlocks.SICLE.get());
+                        pOutput.accept(ModItems.SICLE_SEED.get());
                         pOutput.accept(ModBlocks.BULB_VINE.get());
 
 

@@ -17,6 +17,19 @@
   "item.magical.red_wine": "Red Wine",
   "item.magical.white_wine": "White Wine",
   "item.magical.vodka": "Vodka",
+  "item.magical.sicle_seed": "Sicle Seeds",
+  "item.magical.sling_shot": "Sling Shot",
+  "item.magical.horse_radish": "Horseradishh",
+  "item.magical.net": "Net",
+  "item.magical.radish": "Radish",
+  "item.magical.basic_wood_staff_circle": "Circle Wooden Staff",
+  "item.magical.basic_wood_staff_club": "Club Wooden Staff",
+  "item.magical.basic_wood_staff_blade": "Blade Wooden Staff",
+  "item.magical.basic_wood_staff_hook": "Hook Wooden Staff",
+  "item.magical.radish_and_beef_stew": "Radish and beef stew",
+  "tooltip.magical.staff_type_basic.tooltip": "§9§o-Basic Staff",
+
+
 
 
   "effect.magical.black_death": "Black Death",

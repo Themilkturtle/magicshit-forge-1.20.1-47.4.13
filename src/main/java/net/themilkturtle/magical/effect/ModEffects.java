@@ -1,7 +1,11 @@
 package net.themilkturtle.magical.effect;
 
+import net.minecraft.core.Holder;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectCategory;
+import net.minecraft.world.entity.ai.attributes.AttributeModifier;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -15,6 +19,7 @@ public class ModEffects {
 
 public static final RegistryObject<MobEffect> BLACK_DEATH = MOB_EFFECTS.register("black_death",
         () -> new black_death(MobEffectCategory.HARMFUL, 000000));
+
 
     public static void register(IEventBus eventBus) {
         MOB_EFFECTS.register(eventBus);

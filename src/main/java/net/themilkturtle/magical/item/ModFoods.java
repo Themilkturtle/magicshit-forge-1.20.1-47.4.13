@@ -16,6 +16,15 @@ public class ModFoods {
     public static final FoodProperties BULB_BERRIES = new FoodProperties.Builder().nutrition(-1).fast()
             .saturationMod(-0.2f).effect(() -> new MobEffectInstance(MobEffects.DARKNESS, 200), 1f).build();
 
+    public static final FoodProperties HORSE_RADISH = new FoodProperties.Builder().nutrition(1).fast()
+            .saturationMod(0.2f).effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 200), 1f).build();
+
+    public static final FoodProperties RADISH = new FoodProperties.Builder().nutrition(2).fast()
+            .saturationMod(0.5f).build();
+
+    public static final FoodProperties RADISH_AND_BEEF_STEW = new FoodProperties.Builder().nutrition(10).fast()
+            .saturationMod(1f).build();
+
     public static final FoodProperties MINI_LEMON_TART = new FoodProperties.Builder().nutrition(1).fast()
             .saturationMod(0.5f).build();
 

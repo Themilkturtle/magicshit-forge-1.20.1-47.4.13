@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "base" :{
+    "parent": "magical:item/basic_wood_staff_hook_3d"
+  },
+"perspectives": {
+  "gui": {
+  "parent": "magical:item/basic_wood_staff_hook_2d"
+  },
+  "ground": {
+    "parent": "magical:item/basic_wood_staff_hook_3d"
+  },
+  "fixed": {
+    "parent": "magical:item/basic_wood_staff_hook_2d"
+  }
+}
+}
